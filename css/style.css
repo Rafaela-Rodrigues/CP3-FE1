@@ -1,0 +1,66 @@
+html * {
+    margin: 0;
+    background-color: black;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header img{
+    height: 70px;
+    margin-top: 10px;
+}
+.cabecalho{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 50px;
+}
+.cabecalho ul{
+    list-style: none;
+}
+.container{
+    padding: 0% 40%;
+    color: white;
+}
+fieldset{
+    background-color: gray;
+    border-radius: 15px;
+}
+h1{
+    background-color: gray;
+}
+label{
+    display: flex;
+    background-color: gray;
+}
+legend{
+    text-align: left;
+    display: inline-flex;
+}
+input{
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(85, 77, 77, 0.445);
+}
+#face{
+    height: 25px;
+    background-color: grey;
+}
+#enviar, #cancelar{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px;
+}
+#enviar:hover{
+    background-color: rgba(66, 63, 63, 0.548);
+}
+#cancelar:hover{
+    background-color: rgba(66, 63, 63, 0.548);
+}
+input:hover{
+    color: white;
+    transform: scale(1.1);
+}
